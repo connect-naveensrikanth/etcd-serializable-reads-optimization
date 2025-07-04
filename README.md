@@ -51,7 +51,7 @@ ETCD is a distributed key-value store that ensures high availability and strong 
 * This research is shared for a academic and research purposes. For commercial use, please contact the author.
 
 **Resources**
-* IJFMR Site please 
+*  https://www.ijirct.org
 
 **Author Contact** 
   * LinkedIn: https://www.linkedin.com/in/naveensrikanth/
