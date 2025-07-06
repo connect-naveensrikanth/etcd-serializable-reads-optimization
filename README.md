@@ -1,7 +1,4 @@
-# queries
-**A metric used to measure the number of requests a system receives and processes per second.**
-
-**OPTIMIZING READ PERFORMANCE IN DISTRIBUTED KEY-VALUE STORES USING SERIALIZABLE CONSISTENCY**
+#Optimizing Read Performance in Distributed Key-Value Stores Using Serializable Consistency
 * Author: Naveen Srikanth Pasupuleti
 * Published In : International Journal of Innovative Research and Creative Technology (IJIRCT)
 * Publication Date: June 2024
@@ -12,6 +9,9 @@
 **Abstract**:\
 ETCD is a distributed key-value store that ensures high availability and strong consistency using the Raft consensus protocol. It supports two types of read operations: linearizable reads, which guarantee the most up-to-date data but with higher latency, and serializable reads, which offer lower latency with slightly stale data.  
 This paper focuses on addressing performance bottlenecks caused by linearizable reads by leveraging serializable read operations. By balancing consistency and efficiency, the proposed approach enhances ETCD’s scalability and responsiveness—making it more adaptable to the evolving needs of distributed systems.
+
+**Queries per second**:\
+  A metric used to measure the number of requests a system receives and processes per second.
 
 **Key Contributions:** 
 * **Algorithm Development** \
