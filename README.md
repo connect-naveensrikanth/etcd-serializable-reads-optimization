@@ -1,4 +1,4 @@
-#Optimizing Read Performance in Distributed Key-Value Stores Using Serializable Consistency
+# Optimizing Read Performance in Distributed Key-Value Stores Using Serializable Consistency
 * Author: Naveen Srikanth Pasupuleti
 * Published In : International Journal of Innovative Research and Creative Technology (IJIRCT)
 * Publication Date: June 2024
