@@ -1,34 +1,35 @@
 # queries
-**It's a metric used to measure the number of requests a system receives and processes per second.**
+**A metric used to measure the number of requests a system receives and processes per second.**
 
 **OPTIMIZING READ PERFORMANCE IN DISTRIBUTED KEY-VALUE STORES USING SERIALIZABLE CONSISTENCY**
 * Author: Naveen Srikanth Pasupuleti
 * Published In : International Journal of Innovative Research and Creative Technology (IJIRCT)
-* Publication Date: 06-2024
+* Publication Date: June 2024
 * E-ISSN: 2454-5988
 * Impact Factor: 9.142
-* Link: https://www.ijirct.org/viewPaper.php?paperId=2505045
+* Link: [Read the paper](https://www.ijirct.org/viewPaper.php?paperId=2505045)
 
 **Abstract**:\
-ETCD is a distributed key-value store that ensures high availability and strong consistency using the Raft consensus protocol. It supports two types of read operations: linearizable reads, which guarantee the most up-to-date data but with higher latency, and serializable reads, which offer lower latency with slightly stale data. This paper focuses on improving performance issues caused by linearizable reads by leveraging serializable read operations. By balancing consistency and efficiency, the approach enhances ETCD’s scalability and responsiveness. This makes ETCD more adaptable for diverse distributed system needs.
+ETCD is a distributed key-value store that ensures high availability and strong consistency using the Raft consensus protocol. It supports two types of read operations: linearizable reads, which guarantee the most up-to-date data but with higher latency, and serializable reads, which offer lower latency with slightly stale data.  
+This paper focuses on addressing performance bottlenecks caused by linearizable reads by leveraging serializable read operations. By balancing consistency and efficiency, the proposed approach enhances ETCD’s scalability and responsiveness—making it more adaptable to the evolving needs of distributed systems.
 
 **Key Contributions:** 
 * **Algorithm Development** \
-  Designed and optimized Serializable Read methodology targeting high number of query processing per second.
+  Designed and optimized a Serializable Read methodology targeting higher query-per-second (QPS) processing rates.
 * **Performance Comparison** \
-  Conducted bench marking between Linearizable Read qps and Serializable Read qps.
+  Conducted benchmarking between linearizable and serializable read operations to measure QPS improvements.
 * **Research Leadership**
-  Led the research and technical implementation , focusing on advancing distributed database through algorithm innovation.
+  Led the research and technical implementation, with a focus on advancing distributed databases through algorithmic innovation.
 
 **Relevance & Real-World Impact**
-* **Kubernetes infrastructure optimization:**\
-    Enhances distributed key-value store performance by improving the number of queries to process per second.
-* **Query Processing Improvement:** \
-    need to add here
-* **Academic Recognition :** \
-    need to add here
-* **Educational Impact:** \
-    need to add here
+* **Kubernetes Infrastructure Optimization**  
+  Improves distributed key-value store performance by increasing the number of queries processed per second.
+* **Query Processing Improvement**  
+  _[Add a brief summary of system throughput, latency improvements, or application layer impact.]_
+* **Academic Recognition**  
+  _[Mention awards, conference mentions, or citations if applicable.]_
+* **Educational Impact**  
+  _[Describe adoption in academic settings, student learning, or workshop presentations.]_
 
 **Experimental Results (Summary)**
 
@@ -42,16 +43,16 @@ ETCD is a distributed key-value store that ensures high availability and strong 
 | 11                   | 700                   |  950                  | 35.7            |
 
 **Citation**
-* **OPTIMIZING READ PERFORMANCE IN DISTRIBUTED KEY-VALUE STORES USING SERIALIZABLE CONSISTENCY**
+* **Optimizing Read Performance in Distributed Key-Value Stores Using Serializable Consistency**
 *   Naveen Srikanth Pasupuleti
 *   International Journal of Innovative Research and Creative Technology
 *   E-ISSN-2454-5988
 
 **License**
-* This research is shared for a academic and research purposes. For commercial use, please contact the author.
+* This research is shared for academic and research purposes. For commercial use, please contact the author.
 
 **Resources**
-*  https://www.ijirct.org
+*  [https://www.ijirct.org](https://www.ijirct.org)
 
 **Author Contact** 
   * LinkedIn: https://www.linkedin.com/in/naveensrikanth/
