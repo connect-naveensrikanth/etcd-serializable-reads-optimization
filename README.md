@@ -22,10 +22,11 @@ This paper focuses on addressing performance bottlenecks caused by linearizable 
   Led the research and technical implementation, with a focus on advancing distributed databases through algorithmic innovation.
 
 **Relevance & Real-World Impact**
-* **Kubernetes Infrastructure Optimization**  
-  Improves distributed key-value store performance by increasing the number of queries processed per second.
-* **Query Processing Improvement**  
-  _[Add a brief summary of system throughput, latency improvements, or application layer impact.]_
+* **Read Consistency Efficiency:** \
+  In large clusters, Serializable reads outperform Linearizable reads by avoiding Raft consensus, resulting in lower latency and higher throughput.
+* **Scalable System Design:**\
+  Serializable reads scale more effectively, offering consistent performance as cluster size grows, making them ideal for high-throughput, distributed workloads.
+  
 * **Academic Recognition**  
   _[Mention awards, conference mentions, or citations if applicable.]_
 * **Educational Impact**  
