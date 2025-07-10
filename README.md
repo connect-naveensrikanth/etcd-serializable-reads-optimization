@@ -7,8 +7,7 @@
 * Link: [Read the paper](https://www.ijirct.org/viewPaper.php?paperId=2505045)
 
 **Abstract**:\
-ETCD is a distributed key-value store that ensures high availability and strong consistency using the Raft consensus protocol. It supports two types of read operations: linearizable reads, which guarantee the most up-to-date data but with higher latency, and serializable reads, which offer lower latency with slightly stale data.  
-This paper focuses on addressing performance bottlenecks caused by linearizable reads by leveraging serializable read operations. By balancing consistency and efficiency, the proposed approach enhances ETCD’s scalability and responsiveness—making it more adaptable to the evolving needs of distributed systems.
+ETCD is a distributed key-value store that ensures high availability and strong consistency using the Raft consensus protocol. It supports two types of read operations: linearizable reads, which guarantee the most up-to-date data but with higher latency, and serializable reads, which offer lower latency with slightly stale data. This paper focuses on addressing performance bottlenecks caused by linearizable reads by leveraging serializable read operations. By balancing consistency and efficiency, the proposed approach enhances ETCD’s scalability and responsiveness—making it more adaptable to the evolving needs of distributed systems.
 
 **Queries per second:**\
   A metric used to measure the number of requests a system receives and processes per second.
@@ -22,19 +21,20 @@ This paper focuses on addressing performance bottlenecks caused by linearizable 
   Led the research and technical implementation, with a focus on advancing distributed databases through algorithmic innovation.
 
 **Relevance & Real-World Impact**
-* **Read Consistency Efficiency:** \
-  In large clusters, Serializable reads outperform Linearizable reads by avoiding Raft consensus, resulting in lower latency and higher throughput.
-* **Scalable System Design:**\
-  Serializable reads scale more effectively, offering consistent performance as cluster size grows, making them ideal for high-throughput, distributed workloads.
-  
-* **Academic Recognition:** \
-  Highlighted in academic studies and engineering papers addressing DNS resolution techniques and efficiency enhancements in ETCD systems. 
 
-* **Educational Impact:**  \
-  Integrated into academic initiatives, fostering ongoing scholarly discussion around container management and the optimization of cloud infrastructure performance.
+* **Read performance optimization:**\
+In large-scale deployments, serializable reads improve response time and throughput by bypassing the coordination overhead required by linearizable reads.
+
+* **Scalability benefits:**\
+Serializable reads maintain consistent efficiency as cluster size increases, making them well-suited for distributed systems with demanding read-heavy workloads.
+
+* **Academic relevance:**\
+Recognized in academic and technical literature for addressing efficiency trade-offs in consistent data retrieval within distributed key-value systems.
+
+* **Educational contribution:**\
+Used in instructional content and research contexts to illustrate trade-offs in distributed read models, supporting deeper exploration of system architecture and consistency strategies.
 
 **Experimental Results (Summary)**
-
 
 | Cluster Size (Nodes) | Linearizable Read QPS | Serializable Read QPS | Improvement (%) |
 | ---------------------| --------------------- | --------------------- | ----------------|
