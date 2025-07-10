@@ -10,15 +10,15 @@
 ETCD is a distributed key-value store that ensures high availability and strong consistency using the Raft consensus protocol. It supports two types of read operations: linearizable reads, which guarantee the most up-to-date data but with higher latency, and serializable reads, which offer lower latency with slightly stale data.  
 This paper focuses on addressing performance bottlenecks caused by linearizable reads by leveraging serializable read operations. By balancing consistency and efficiency, the proposed approach enhances ETCD’s scalability and responsiveness—making it more adaptable to the evolving needs of distributed systems.
 
-**Queries per second**:\
+**Queries per second:**\
   A metric used to measure the number of requests a system receives and processes per second.
 
 **Key Contributions:** 
-* **Algorithm Development** \
+* **Algorithm Development:** \
   Designed and optimized a Serializable Read methodology targeting higher query-per-second (QPS) processing rates.
-* **Performance Comparison** \
+* **Performance Comparison:** \
   Conducted benchmarking between linearizable and serializable read operations to measure QPS improvements.
-* **Research Leadership**
+* **Research Leadership:**
   Led the research and technical implementation, with a focus on advancing distributed databases through algorithmic innovation.
 
 **Relevance & Real-World Impact**
