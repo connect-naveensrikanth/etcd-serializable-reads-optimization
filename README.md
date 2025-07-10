@@ -27,10 +27,11 @@ This paper focuses on addressing performance bottlenecks caused by linearizable 
 * **Scalable System Design:**\
   Serializable reads scale more effectively, offering consistent performance as cluster size grows, making them ideal for high-throughput, distributed workloads.
   
-* **Academic Recognition**  
-  _[Mention awards, conference mentions, or citations if applicable.]_
-* **Educational Impact**  
-  _[Describe adoption in academic settings, student learning, or workshop presentations.]_
+* **Academic Recognition** \
+  Highlighted in academic studies and engineering papers addressing DNS resolution techniques and efficiency enhancements in ETCD systems. 
+
+* **Educational Impact**  \
+  Integrated into academic initiatives, fostering ongoing scholarly discussion around container management and the optimization of cloud infrastructure performance.
 
 **Experimental Results (Summary)**
 
