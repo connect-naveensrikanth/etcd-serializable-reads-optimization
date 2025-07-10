@@ -57,5 +57,4 @@ This paper focuses on addressing performance bottlenecks caused by linearizable 
 *  [https://www.ijirct.org](https://www.ijirct.org)
 
 **Author Contact** 
-  * LinkedIn: https://www.linkedin.com/in/naveensrikanth/
-  * Email: connect.naveensrikanth@gmail.com
+  * LinkedIn: https://www.linkedin.com/in/naveensrikanth | Email: connect.naveensrikanth@gmail.com
